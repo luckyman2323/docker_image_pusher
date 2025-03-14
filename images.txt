@@ -12,8 +12,5 @@
 # --platform=linux/amd64 registry.k8s.io/pause:3.10
 # --platform=linux/amd64 registry.k8s.io/etcd:3.5.16-0
 
---platform=linux/amd64 docker.io/kubernetesui/dashboard-api:1.11.1
---platform=linux/amd64 kong:3.8
---platform=linux/amd64 docker.io/kubernetesui/dashboard-web:1.6.2
---platform=linux/amd64 docker.io/kubernetesui/dashboard-auth:1.2.4
---platform=linux/amd64 docker.io/kubernetesui/dashboard-metrics-scraper:1.2.2
+--platform=linux/amd64 hyperledger/fabric-baseos:amd64-0.4.22
+--platform=linux/amd64 hyperledger/fabric-baseimage:amd64-0.4.22
